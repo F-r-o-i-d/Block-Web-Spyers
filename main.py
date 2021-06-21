@@ -1,5 +1,6 @@
 from flask import Flask
-import requests, AdBlock
+import requests
+import AdBlock
 app = Flask(__name__)
 
 @app.route('/url=<path:path>')
